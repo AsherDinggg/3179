@@ -26,7 +26,7 @@
         },
         {
             "data": {
-                "url": "../data/idiom_11.csv"
+                "url": "data/idiom_11.csv"
             },
             "mark": {
                 "type": "circle",

@@ -26,7 +26,7 @@
         },
         {
             "data": {
-                "url": "../data/idiom10_running_events.csv",
+                "url": "data/idiom10_running_events.csv",
                 "format": {
                     "type": "csv"
                 }

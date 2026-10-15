@@ -37,7 +37,7 @@
                     "lookup": "properties.STATE_NAME",
                     "from": {
                         "data": {
-                            "url": "../data/idiom_5.csv"
+                            "url": "data/idiom_5.csv"
                         },
                         "key": "State",
                         "fields": [
