@@ -4,7 +4,7 @@
     "width": "container",
     "height": 573,
     "data": {
-        "url": "../data/idiom_1.csv"
+        "url": "data/idiom_1.csv"
     },
     "mark": {
         "type": "bar",

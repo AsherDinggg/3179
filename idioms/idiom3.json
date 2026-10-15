@@ -4,7 +4,7 @@
     "width": "container",
     "height": 550,
     "data": {
-        "url": "../data/idiom_3.csv"
+        "url": "data/idiom_3.csv"
     },
     "transform": [
         {
