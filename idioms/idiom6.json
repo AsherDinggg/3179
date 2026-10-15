@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": null,
+    "width": "container",
+    "height": 550,
+    "data": {
+        "url": "../data/idiom_6.csv"
+    },
+    "transform": [
+        {
+            "calculate": "datum['Waterfall Type'] === 'Baseline' ? 'Baseline' : datum['Waterfall Value'] >= 0 ? 'Increase' : 'Decrease'",
+            "as": "Change Category"
+        }
+    ],
+    "mark": {
+        "type": "bar",
+        "tooltip": true
+    },
+    "encoding": {
+        "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "sort": "ascending",
+            "title": "Year"
+        },
+        "y": {
+            "field": "Waterfall Start",
+            "type": "quantitative",
+            "title": "Average performances per event",
+            "scale": {
+                "domain": [0, 650]
+            }
+        },
+        "y2": {
+            "field": "Waterfall End"
+        },
+        "color": {
+            "field": "Change Category",
+            "type": "nominal",
+            "scale": {
+                "domain": ["Baseline", "Increase", "Decrease"],
+                "range": ["#596B75", "#E69F00", "#8064A2"]
+            },
+            "legend": {
+                "title": "Year-on-year change",
+                "orient": "bottom"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "Year",
+                "type": "ordinal"
+            },
+            {
+                "field": "Average Performances per Event",
+                "type": "quantitative",
+                "title": "Average performances per event",
+                "format": ".1f"
+            },
+            {
+                "field": "Waterfall Value",
+                "type": "quantitative",
+                "title": "Change from previous year",
+                "format": "+.1f"
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

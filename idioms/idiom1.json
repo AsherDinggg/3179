@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": null,
+    "width": "container",
+    "height": 573,
+    "data": {
+        "url": "../data/idiom_1.csv"
+    },
+    "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 4,
+        "tooltip": true,
+        "color": "#B96F52"
+    },
+    "encoding": {
+        "y": {
+            "field": "Physical activity name",
+            "type": "nominal",
+            "sort": "-x",
+            "title": "Physical activity",
+            "axis": {
+                "labelFontSize": 12,
+                "titleFontSize": 13,
+                "labelLimit": 180
+            }
+        },
+        "x": {
+            "field": "Participation rate (%)",
+            "type": "quantitative",
+            "title": "Participation rate (%)",
+            "scale": {
+                "zero": true
+            },
+            "axis": {
+                "labelFontSize": 11,
+                "titleFontSize": 13,
+                "grid": true
+            }
+        },
+        "tooltip": [
+            {
+                "field": "Physical activity name",
+                "type": "nominal",
+                "title": "Activity"
+            },
+            {
+                "field": "Participation rate (%)",
+                "type": "quantitative",
+                "title": "Participation rate",
+                "format": ".1f"
+            },
+            {
+                "field": "Estimated number of participants",
+                "type": "quantitative",
+                "title": "Estimated participants",
+                "format": ","
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

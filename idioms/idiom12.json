@@ -1,0 +1,103 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": null,
+    "data": {
+        "url": "../data/idiom_12.csv"
+    },
+    "facet": {
+        "field": "Month",
+        "type": "ordinal",
+        "sort": [
+            "January", "February", "March", "April",
+            "May", "June", "July", "August",
+            "September", "October", "November", "December"
+        ],
+        "header": {
+            "title": null,
+            "labelFontSize": 13,
+            "labelFontWeight": "bold"
+        }
+    },
+    "columns": 3,
+    "spec": {
+        "width": 190,
+        "height": 80,
+        "mark": {
+                "type": "rect",
+                "stroke": "white",
+                "strokeWidth": 1
+            },
+            "encoding": {
+                "x": {
+                    "field": "Weekday",
+                    "type": "ordinal",
+                    "sort": [
+                        "Monday", "Tuesday", "Wednesday", "Thursday",
+                        "Friday", "Saturday", "Sunday"
+                    ],
+                    "axis": {
+                        "title": null,
+                        "labelAngle": -45,
+                        "labelFontSize": 9,
+                        "labelLimit": 40,
+                        "labelOverlap": false,
+                        "ticks": false,
+                        "domain": false,
+                        "labelPadding": 5
+                    }
+                },
+                "y": {
+                    "field": "Week of Month",
+                    "type": "ordinal",
+                    "sort": [1,2,3,4,5],
+                    "axis": {
+                        "title": null,
+                        "labelFontSize": 9,
+                        "ticks": false,
+                        "domain": false
+                    }
+                },
+                "color": {
+                    "field": "Event Count",
+                    "type": "quantitative",
+                    "scale": {
+                        "range": ["#FFF3CF", "#F3D98B", "#D9B45B", "#A98232"]
+                    },
+                    "legend": {
+                        "title": "Events",
+                        "orient": "bottom",
+                        "gradientLength": 120
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "Date",
+                        "type": "nominal",
+                        "title": "Date"
+                    },
+                    {
+                        "field": "Event Count",
+                        "type": "quantitative",
+                        "title": "Number of events"
+                    },
+                    {
+                        "field": "Event Names",
+                        "type": "nominal",
+                        "title": "Event names",
+                        "format": ""
+                    }
+                ]
+            }
+        },
+        "config": {
+            "view": {
+                "stroke": null
+            },
+            "axis": {
+                "grid": false
+            },
+            "facet": {
+                "spacing": 18
+            }
+        }
+    }

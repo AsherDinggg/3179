@@ -1,0 +1,70 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": null,
+    "width": "container",
+    "height": 550,
+    "data": {
+        "url": "../data/idiom_9.csv"
+    },
+    "mark": {
+                "type": "rect",
+                "strokeWidth": 2,
+                "color": "white"
+            },
+    "encoding": {
+        "y": {
+            "field": "Age Group",
+            "type": "ordinal",
+            "sort": [
+                "65+",
+                "55-64",
+                "45-54",
+                "35-44",
+                "25-34",
+                "18-24",
+                "15-17"
+                    ],
+            "title": "Age group"
+        },
+        "x": {
+            "field": "Motivation",
+            "type": "nominal",
+            "title": "Motivation",
+            "axis": {
+                "labelAngle": -35,
+                "labelLimit": 180
+            }
+        },
+        "color": {
+            "field": "Percentage",
+            "type": "quantitative",
+            "title": "Percentage (%)",
+            "scale": {
+                "range": ["#E3EBDD", "#A9C5A5", "#568875", "#245747"]
+            }
+        },
+        "tooltip": [
+            {
+                "field": "Age Group",
+                "type": "ordinal",
+                "title": "Age group"
+            },
+            {
+                "field": "Motivation",
+                "type": "nominal",
+                "title": "Motivation"
+            },
+            {
+                "field": "Percentage",
+                "type": "quantitative",
+                "title": "Percentage (%)",
+                "format": ".1f"
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

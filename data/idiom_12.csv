@@ -1,0 +1,366 @@
+Date,Event Count,Event Names,Month,Month Number,Weekday,Weekday Number,Week of Month
+1/1/2025,0,,January,1,Wednesday,2,1
+2/1/2025,0,,January,1,Thursday,3,1
+3/1/2025,0,,January,1,Friday,4,1
+4/1/2025,0,,January,1,Saturday,5,1
+5/1/2025,0,,January,1,Sunday,6,1
+6/1/2025,0,,January,1,Monday,0,2
+7/1/2025,0,,January,1,Tuesday,1,2
+8/1/2025,0,,January,1,Wednesday,2,2
+9/1/2025,0,,January,1,Thursday,3,2
+10/1/2025,0,,January,1,Friday,4,2
+11/1/2025,0,,January,1,Saturday,5,2
+12/1/2025,0,,January,1,Sunday,6,2
+13/1/2025,0,,January,1,Monday,0,3
+14/1/2025,0,,January,1,Tuesday,1,3
+15/1/2025,0,,January,1,Wednesday,2,3
+16/1/2025,0,,January,1,Thursday,3,3
+17/1/2025,0,,January,1,Friday,4,3
+18/1/2025,1,2025 True Blue Ultra,January,1,Saturday,5,3
+19/1/2025,0,,January,1,Sunday,6,3
+20/1/2025,0,,January,1,Monday,0,4
+21/1/2025,0,,January,1,Tuesday,1,4
+22/1/2025,0,,January,1,Wednesday,2,4
+23/1/2025,0,,January,1,Thursday,3,4
+24/1/2025,0,,January,1,Friday,4,4
+25/1/2025,1,Blue Goat's Backyard Marathon,January,1,Saturday,5,4
+26/1/2025,0,,January,1,Sunday,6,4
+27/1/2025,0,,January,1,Monday,0,5
+28/1/2025,0,,January,1,Tuesday,1,5
+29/1/2025,0,,January,1,Wednesday,2,5
+30/1/2025,0,,January,1,Thursday,3,5
+31/1/2025,0,,January,1,Friday,4,5
+1/2/2025,2,City Run | Cradle Mountain Run,February,2,Saturday,5,1
+2/2/2025,0,,February,2,Sunday,6,1
+3/2/2025,0,,February,2,Monday,0,2
+4/2/2025,0,,February,2,Tuesday,1,2
+5/2/2025,0,,February,2,Wednesday,2,2
+6/2/2025,0,,February,2,Thursday,3,2
+7/2/2025,0,,February,2,Friday,4,2
+8/2/2025,1,World Marathon Challenge - Perth Leg,February,2,Saturday,5,2
+9/2/2025,0,,February,2,Sunday,6,2
+10/2/2025,0,,February,2,Monday,0,3
+11/2/2025,0,,February,2,Tuesday,1,3
+12/2/2025,0,,February,2,Wednesday,2,3
+13/2/2025,0,,February,2,Thursday,3,3
+14/2/2025,1,Hut 2 Hut - Oscars100,February,2,Friday,4,3
+15/2/2025,1,Yaberoo Trail Ultra,February,2,Saturday,5,3
+16/2/2025,0,,February,2,Sunday,6,3
+17/2/2025,0,,February,2,Monday,0,4
+18/2/2025,0,,February,2,Tuesday,1,4
+19/2/2025,0,,February,2,Wednesday,2,4
+20/2/2025,0,,February,2,Thursday,3,4
+21/2/2025,0,,February,2,Friday,4,4
+22/2/2025,2,Sri Chinmoy 100km Road Relays and Solo Run - 2025 100km Australian Championships | Trail Run Australia - Snowy Mountains,February,2,Saturday,5,4
+23/2/2025,0,,February,2,Sunday,6,4
+24/2/2025,0,,February,2,Monday,0,5
+25/2/2025,0,,February,2,Tuesday,1,5
+26/2/2025,0,,February,2,Wednesday,2,5
+27/2/2025,0,,February,2,Thursday,3,5
+28/2/2025,0,,February,2,Friday,4,5
+1/3/2025,2,Belair Marathon | Runningworks Lark Hill Party Ultra,March,3,Saturday,5,1
+2/3/2025,1,Backyard Ultra Trial Series - Bendigo,March,3,Sunday,6,1
+3/3/2025,0,,March,3,Monday,0,2
+4/3/2025,0,,March,3,Tuesday,1,2
+5/3/2025,0,,March,3,Wednesday,2,2
+6/3/2025,0,,March,3,Thursday,3,2
+7/3/2025,0,,March,3,Friday,4,2
+8/3/2025,0,,March,3,Saturday,5,2
+9/3/2025,0,,March,3,Sunday,6,2
+10/3/2025,0,,March,3,Monday,0,3
+11/3/2025,0,,March,3,Tuesday,1,3
+12/3/2025,0,,March,3,Wednesday,2,3
+13/3/2025,0,,March,3,Thursday,3,3
+14/3/2025,0,,March,3,Friday,4,3
+15/3/2025,1,I'm Still Standing Sydney Last One Standing,March,3,Saturday,5,3
+16/3/2025,0,,March,3,Sunday,6,3
+17/3/2025,0,,March,3,Monday,0,4
+18/3/2025,0,,March,3,Tuesday,1,4
+19/3/2025,0,,March,3,Wednesday,2,4
+20/3/2025,1,Noosa Ultra-Trail,March,3,Thursday,3,4
+21/3/2025,2,Sri Chinmoy 48 Hour Track Festival | Herdy's Frontyard Ultra,March,3,Friday,4,4
+22/3/2025,1,Washpool World Heritage Trails,March,3,Saturday,5,4
+23/3/2025,0,,March,3,Sunday,6,4
+24/3/2025,0,,March,3,Monday,0,5
+25/3/2025,0,,March,3,Tuesday,1,5
+26/3/2025,0,,March,3,Wednesday,2,5
+27/3/2025,0,,March,3,Thursday,3,5
+28/3/2025,2,kunanyi Mountain Run 2025 | Buffalo Stampede Festival 2025,March,3,Friday,4,5
+29/3/2025,0,,March,3,Saturday,5,5
+30/3/2025,1,Tamworth Trailblazer,March,3,Sunday,6,5
+31/3/2025,0,,March,3,Monday,0,6
+1/4/2025,0,,April,4,Tuesday,1,1
+2/4/2025,0,,April,4,Wednesday,2,1
+3/4/2025,0,,April,4,Thursday,3,1
+4/4/2025,0,,April,4,Friday,4,1
+5/4/2025,2,Lithgow Ridgy-Didge Trail Run Festival | Cairns 50,April,4,Saturday,5,1
+6/4/2025,1,3 Valleys Runningworks Ultra,April,4,Sunday,6,1
+7/4/2025,0,,April,4,Monday,0,2
+8/4/2025,1,Delirious WEST 100 & 200 Miler,April,4,Tuesday,1,2
+9/4/2025,0,,April,4,Wednesday,2,2
+10/4/2025,0,,April,4,Thursday,3,2
+11/4/2025,0,,April,4,Friday,4,2
+12/4/2025,1,Gil's Galavant BYU,April,4,Saturday,5,2
+13/4/2025,2,Coombabah Trail Run | Five Peaks Trail Running Festival,April,4,Sunday,6,2
+14/4/2025,0,,April,4,Monday,0,3
+15/4/2025,0,,April,4,Tuesday,1,3
+16/4/2025,0,,April,4,Wednesday,2,3
+17/4/2025,0,,April,4,Thursday,3,3
+18/4/2025,0,,April,4,Friday,4,3
+19/4/2025,0,,April,4,Saturday,5,3
+20/4/2025,0,,April,4,Sunday,6,3
+21/4/2025,0,,April,4,Monday,0,4
+22/4/2025,0,,April,4,Tuesday,1,4
+23/4/2025,0,,April,4,Wednesday,2,4
+24/4/2025,0,,April,4,Thursday,3,4
+25/4/2025,0,,April,4,Friday,4,4
+26/4/2025,1,Melbourne Frontyard Ultra,April,4,Saturday,5,4
+27/4/2025,1,Backyard Ultra Trial Series - Everton,April,4,Sunday,6,4
+28/4/2025,0,,April,4,Monday,0,5
+29/4/2025,0,,April,4,Tuesday,1,5
+30/4/2025,0,,April,4,Wednesday,2,5
+1/5/2025,0,,May,5,Thursday,3,1
+2/5/2025,0,,May,5,Friday,4,1
+3/5/2025,0,,May,5,Saturday,5,1
+4/5/2025,1,Kunanyi Trail Series - Organ Pipes Classic,May,5,Sunday,6,1
+5/5/2025,0,,May,5,Monday,0,2
+6/5/2025,0,,May,5,Tuesday,1,2
+7/5/2025,0,,May,5,Wednesday,2,2
+8/5/2025,0,,May,5,Thursday,3,2
+9/5/2025,1,River Run 100,May,5,Friday,4,2
+10/5/2025,0,,May,5,Saturday,5,2
+11/5/2025,1,Springsure Mountain Challenge,May,5,Sunday,6,2
+12/5/2025,0,,May,5,Monday,0,3
+13/5/2025,0,,May,5,Tuesday,1,3
+14/5/2025,0,,May,5,Wednesday,2,3
+15/5/2025,1,Ultra-Trail Australia by UTMB,May,5,Thursday,3,3
+16/5/2025,2,No Time To Die Frontyard Ultra | Down Under 135,May,5,Friday,4,3
+17/5/2025,1,2 Rivers Backyard Ultra,May,5,Saturday,5,3
+18/5/2025,0,,May,5,Sunday,6,3
+19/5/2025,0,,May,5,Monday,0,4
+20/5/2025,0,,May,5,Tuesday,1,4
+21/5/2025,0,,May,5,Wednesday,2,4
+22/5/2025,0,,May,5,Thursday,3,4
+23/5/2025,0,,May,5,Friday,4,4
+24/5/2025,0,,May,5,Saturday,5,4
+25/5/2025,0,,May,5,Sunday,6,4
+26/5/2025,0,,May,5,Monday,0,5
+27/5/2025,0,,May,5,Tuesday,1,5
+28/5/2025,0,,May,5,Wednesday,2,5
+29/5/2025,0,,May,5,Thursday,3,5
+30/5/2025,0,,May,5,Friday,4,5
+31/5/2025,0,,May,5,Saturday,5,5
+1/6/2025,0,,June,6,Sunday,6,1
+2/6/2025,0,,June,6,Monday,0,2
+3/6/2025,0,,June,6,Tuesday,1,2
+4/6/2025,0,,June,6,Wednesday,2,2
+5/6/2025,0,,June,6,Thursday,3,2
+6/6/2025,0,,June,6,Friday,4,2
+7/6/2025,3,Coffs Backyard Ultra | Adelaide 24 Hour Festival | Ultra Perth,June,6,Saturday,5,2
+8/6/2025,0,,June,6,Sunday,6,2
+9/6/2025,0,,June,6,Monday,0,3
+10/6/2025,0,,June,6,Tuesday,1,3
+11/6/2025,0,,June,6,Wednesday,2,3
+12/6/2025,0,,June,6,Thursday,3,3
+13/6/2025,0,,June,6,Friday,4,3
+14/6/2025,0,,June,6,Saturday,5,3
+15/6/2025,0,,June,6,Sunday,6,3
+16/6/2025,0,,June,6,Monday,0,4
+17/6/2025,0,,June,6,Tuesday,1,4
+18/6/2025,0,,June,6,Wednesday,2,4
+19/6/2025,0,,June,6,Thursday,3,4
+20/6/2025,0,,June,6,Friday,4,4
+21/6/2025,2,Dead Cow Gully | Cape2Cape Ultra Marathon,June,6,Saturday,5,4
+22/6/2025,2,Backyard Ultra Trial Series - Shepparton | Heaven & Hell Trail Marathon,June,6,Sunday,6,4
+23/6/2025,0,,June,6,Monday,0,5
+24/6/2025,0,,June,6,Tuesday,1,5
+25/6/2025,0,,June,6,Wednesday,2,5
+26/6/2025,0,,June,6,Thursday,3,5
+27/6/2025,0,,June,6,Friday,4,5
+28/6/2025,2,Ultra Trail Jervis Bay | Brisbane Trail Ultra,June,6,Saturday,5,5
+29/6/2025,1,Freycinet Trail Run,June,6,Sunday,6,5
+30/6/2025,0,,June,6,Monday,0,6
+1/7/2025,0,,July,7,Tuesday,1,1
+2/7/2025,0,,July,7,Wednesday,2,1
+3/7/2025,0,,July,7,Thursday,3,1
+4/7/2025,0,,July,7,Friday,4,1
+5/7/2025,2,Australian 24 Hour Track Invitational | Red Dirt Backyard Ultra 2025,July,7,Saturday,5,1
+6/7/2025,0,,July,7,Sunday,6,1
+7/7/2025,0,,July,7,Monday,0,2
+8/7/2025,0,,July,7,Tuesday,1,2
+9/7/2025,0,,July,7,Wednesday,2,2
+10/7/2025,0,,July,7,Thursday,3,2
+11/7/2025,0,,July,7,Friday,4,2
+12/7/2025,1,Ultra Adelaide,July,7,Saturday,5,2
+13/7/2025,0,,July,7,Sunday,6,2
+14/7/2025,0,,July,7,Monday,0,3
+15/7/2025,0,,July,7,Tuesday,1,3
+16/7/2025,0,,July,7,Wednesday,2,3
+17/7/2025,0,,July,7,Thursday,3,3
+18/7/2025,3,Elephant Trail Race | 3M3D | Wild Dog Backyard Ultra,July,7,Friday,4,3
+19/7/2025,1,Boyne Valley 50,July,7,Saturday,5,3
+20/7/2025,1,Backyard Ultra Trial Series - Bendigo,July,7,Sunday,6,3
+21/7/2025,0,,July,7,Monday,0,4
+22/7/2025,0,,July,7,Tuesday,1,4
+23/7/2025,0,,July,7,Wednesday,2,4
+24/7/2025,0,,July,7,Thursday,3,4
+25/7/2025,0,,July,7,Friday,4,4
+26/7/2025,0,,July,7,Saturday,5,4
+27/7/2025,0,,July,7,Sunday,6,4
+28/7/2025,0,,July,7,Monday,0,5
+29/7/2025,0,,July,7,Tuesday,1,5
+30/7/2025,0,,July,7,Wednesday,2,5
+31/7/2025,0,,July,7,Thursday,3,5
+1/8/2025,0,,August,8,Friday,4,1
+2/8/2025,0,,August,8,Saturday,5,1
+3/8/2025,2,Rumble in the Jungle | Kunanyi Trail Series - Tolosa Half,August,8,Sunday,6,1
+4/8/2025,0,,August,8,Monday,0,2
+5/8/2025,0,,August,8,Tuesday,1,2
+6/8/2025,0,,August,8,Wednesday,2,2
+7/8/2025,0,,August,8,Thursday,3,2
+8/8/2025,1,Birdy's Backyard Ultra,August,8,Friday,4,2
+9/8/2025,1,Berry Long Run,August,8,Saturday,5,2
+10/8/2025,0,,August,8,Sunday,6,2
+11/8/2025,0,,August,8,Monday,0,3
+12/8/2025,0,,August,8,Tuesday,1,3
+13/8/2025,0,,August,8,Wednesday,2,3
+14/8/2025,0,,August,8,Thursday,3,3
+15/8/2025,0,,August,8,Friday,4,3
+16/8/2025,1,Transcend,August,8,Saturday,5,3
+17/8/2025,1,60km K2PD Solo and Team Ultra Trail Race,August,8,Sunday,6,3
+18/8/2025,0,,August,8,Monday,0,4
+19/8/2025,0,,August,8,Tuesday,1,4
+20/8/2025,0,,August,8,Wednesday,2,4
+21/8/2025,0,,August,8,Thursday,3,4
+22/8/2025,0,,August,8,Friday,4,4
+23/8/2025,1,Russell Falls Trail Run,August,8,Saturday,5,4
+24/8/2025,1,Run The River Half,August,8,Sunday,6,4
+25/8/2025,0,,August,8,Monday,0,5
+26/8/2025,0,,August,8,Tuesday,1,5
+27/8/2025,0,,August,8,Wednesday,2,5
+28/8/2025,0,,August,8,Thursday,3,5
+29/8/2025,0,,August,8,Friday,4,5
+30/8/2025,0,,August,8,Saturday,5,5
+31/8/2025,1,Murphys Creek Challenge,August,8,Sunday,6,5
+1/9/2025,0,,September,9,Monday,0,1
+2/9/2025,0,,September,9,Tuesday,1,1
+3/9/2025,0,,September,9,Wednesday,2,1
+4/9/2025,0,,September,9,Thursday,3,1
+5/9/2025,0,,September,9,Friday,4,1
+6/9/2025,1,Lighthorse Ultra,September,9,Saturday,5,1
+7/9/2025,1,Kunanyi Trail Series - Rialannah,September,9,Sunday,6,1
+8/9/2025,0,,September,9,Monday,0,2
+9/9/2025,0,,September,9,Tuesday,1,2
+10/9/2025,0,,September,9,Wednesday,2,2
+11/9/2025,0,,September,9,Thursday,3,2
+12/9/2025,0,,September,9,Friday,4,2
+13/9/2025,3,Lap The Valley Backyard Ultra Marathon | SA Track Ultra | Surf Coast Century,September,9,Saturday,5,2
+14/9/2025,0,,September,9,Sunday,6,2
+15/9/2025,0,,September,9,Monday,0,3
+16/9/2025,0,,September,9,Tuesday,1,3
+17/9/2025,0,,September,9,Wednesday,2,3
+18/9/2025,0,,September,9,Thursday,3,3
+19/9/2025,1,Pilliga Ultra,September,9,Friday,4,3
+20/9/2025,2,Labillardiere Peninsula Trail Run | GV Last One Standing,September,9,Saturday,5,3
+21/9/2025,2,Great North Walk Trail Running Festival | Griffith Sport Toohey Trail Run,September,9,Sunday,6,3
+22/9/2025,0,,September,9,Monday,0,4
+23/9/2025,0,,September,9,Tuesday,1,4
+24/9/2025,0,,September,9,Wednesday,2,4
+25/9/2025,0,,September,9,Thursday,3,4
+26/9/2025,1,Southern Sydney Track Ultra,September,9,Friday,4,4
+27/9/2025,1,Lonely Mountain Ultra,September,9,Saturday,5,4
+28/9/2025,1,Yurrebilla Ultra Trail Run,September,9,Sunday,6,4
+29/9/2025,0,,September,9,Monday,0,5
+30/9/2025,0,,September,9,Tuesday,1,5
+1/10/2025,0,,October,10,Wednesday,2,1
+2/10/2025,0,,October,10,Thursday,3,1
+3/10/2025,0,,October,10,Friday,4,1
+4/10/2025,3,LAKES Trail Festival - NEW DATE! | Garden City Backyard Ultra | Barkin Mad Ultra,October,10,Saturday,5,1
+5/10/2025,3,Coombabah Trail Run | Barossa Run | Coastal Pathway Ultra,October,10,Sunday,6,1
+6/10/2025,0,,October,10,Monday,0,2
+7/10/2025,0,,October,10,Tuesday,1,2
+8/10/2025,0,,October,10,Wednesday,2,2
+9/10/2025,0,,October,10,Thursday,3,2
+10/10/2025,0,,October,10,Friday,4,2
+11/10/2025,2,Hume and Hovell Ultra | fisiocrem GC50 Run Festival,October,10,Saturday,5,2
+12/10/2025,0,,October,10,Sunday,6,2
+13/10/2025,0,,October,10,Monday,0,3
+14/10/2025,0,,October,10,Tuesday,1,3
+15/10/2025,0,,October,10,Wednesday,2,3
+16/10/2025,0,,October,10,Thursday,3,3
+17/10/2025,0,,October,10,Friday,4,3
+18/10/2025,0,,October,10,Saturday,5,3
+19/10/2025,0,,October,10,Sunday,6,3
+20/10/2025,0,,October,10,Monday,0,4
+21/10/2025,0,,October,10,Tuesday,1,4
+22/10/2025,0,,October,10,Wednesday,2,4
+23/10/2025,0,,October,10,Thursday,3,4
+24/10/2025,0,,October,10,Friday,4,4
+25/10/2025,6,Johnson & Johnson Bondi to Manly Ultra 2025 | Red's Backyard Ultra - NEW EVENT DATE | Smurf's BYU | Trail Run Australia - Sunshine Coast 10hr | Heysen 105 Ultra | Great Ocean Trail Ultra,October,10,Saturday,5,4
+26/10/2025,0,,October,10,Sunday,6,4
+27/10/2025,0,,October,10,Monday,0,5
+28/10/2025,0,,October,10,Tuesday,1,5
+29/10/2025,0,,October,10,Wednesday,2,5
+30/10/2025,0,,October,10,Thursday,3,5
+31/10/2025,0,,October,10,Friday,4,5
+1/11/2025,1,Kunanyi Trail Series - Knockers,November,11,Saturday,5,1
+2/11/2025,0,,November,11,Sunday,6,1
+3/11/2025,0,,November,11,Monday,0,2
+4/11/2025,0,,November,11,Tuesday,1,2
+5/11/2025,0,,November,11,Wednesday,2,2
+6/11/2025,1,Grampians Peaks Trail 100 Miler,November,11,Thursday,3,2
+7/11/2025,0,,November,11,Friday,4,2
+8/11/2025,1,Feral Pig Ultra,November,11,Saturday,5,2
+9/11/2025,0,,November,11,Sunday,6,2
+10/11/2025,0,,November,11,Monday,0,3
+11/11/2025,0,,November,11,Tuesday,1,3
+12/11/2025,0,,November,11,Wednesday,2,3
+13/11/2025,0,,November,11,Thursday,3,3
+14/11/2025,2,Coast to Kosciuszko | Run Bibbulmun Track Stage Race,November,11,Friday,4,3
+15/11/2025,1,Stromlo Running Festival,November,11,Saturday,5,3
+16/11/2025,0,,November,11,Sunday,6,3
+17/11/2025,0,,November,11,Monday,0,4
+18/11/2025,0,,November,11,Tuesday,1,4
+19/11/2025,0,,November,11,Wednesday,2,4
+20/11/2025,0,,November,11,Thursday,3,4
+21/11/2025,1,GSER,November,11,Friday,4,4
+22/11/2025,0,,November,11,Saturday,5,4
+23/11/2025,0,,November,11,Sunday,6,4
+24/11/2025,0,,November,11,Monday,0,5
+25/11/2025,0,,November,11,Tuesday,1,5
+26/11/2025,0,,November,11,Wednesday,2,5
+27/11/2025,0,,November,11,Thursday,3,5
+28/11/2025,0,,November,11,Friday,4,5
+29/11/2025,3,Blue Goat's Backyard Marathon 2025 | Dusk to Dawn | Sealink Bruny Island Ultra 64K & Relay,November,11,Saturday,5,5
+30/11/2025,0,,November,11,Sunday,6,5
+1/12/2025,0,,December,12,Monday,0,1
+2/12/2025,0,,December,12,Tuesday,1,1
+3/12/2025,0,,December,12,Wednesday,2,1
+4/12/2025,0,,December,12,Thursday,3,1
+5/12/2025,0,,December,12,Friday,4,1
+6/12/2025,0,,December,12,Saturday,5,1
+7/12/2025,1,Duval Dam Buster Trail Run,December,12,Sunday,6,1
+8/12/2025,0,,December,12,Monday,0,2
+9/12/2025,0,,December,12,Tuesday,1,2
+10/12/2025,0,,December,12,Wednesday,2,2
+11/12/2025,0,,December,12,Thursday,3,2
+12/12/2025,0,,December,12,Friday,4,2
+13/12/2025,3,Peaks & Passages 2025 | Narrabeen Allnighter | Dragway Sprint Series - Round 1,December,12,Saturday,5,2
+14/12/2025,0,,December,12,Sunday,6,2
+15/12/2025,0,,December,12,Monday,0,3
+16/12/2025,0,,December,12,Tuesday,1,3
+17/12/2025,0,,December,12,Wednesday,2,3
+18/12/2025,0,,December,12,Thursday,3,3
+19/12/2025,0,,December,12,Friday,4,3
+20/12/2025,0,,December,12,Saturday,5,3
+21/12/2025,0,,December,12,Sunday,6,3
+22/12/2025,0,,December,12,Monday,0,4
+23/12/2025,0,,December,12,Tuesday,1,4
+24/12/2025,0,,December,12,Wednesday,2,4
+25/12/2025,0,,December,12,Thursday,3,4
+26/12/2025,0,,December,12,Friday,4,4
+27/12/2025,0,,December,12,Saturday,5,4
+28/12/2025,0,,December,12,Sunday,6,4
+29/12/2025,0,,December,12,Monday,0,5
+30/12/2025,0,,December,12,Tuesday,1,5
+31/12/2025,1,Aussie Alpine Backyard Ultra,December,12,Wednesday,2,5

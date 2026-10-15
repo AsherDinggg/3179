@@ -1,0 +1,69 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "How Popular Is Running Compared with Other Activities?",
+        "subtitle": "Participation rates for selected physical activities in Australia"
+    },
+    "width": "container",
+    "height": 300,
+    "data": {
+        "url": "../data/idiom_1.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 4
+    },
+    "encoding": {
+        "y":{
+            "field": "Physical activity name",
+            "type": "nominal",
+            "sort": "-x",
+            "title": null,
+            "axis": {
+                "labelLimit": 180
+            }
+        },
+        "x": {
+            "field": "Participation rate (%)",
+            "type": "quantitative",
+            "title": "Participation rate (%)",
+            "scale": {
+                "domain": [0, 55]
+            }
+        },
+        "color":{
+            "condition": {
+                "test": "datum['Physical activity name'] === 'Running/jogging'",
+                "value": "#2d8067"
+            },
+            "value": "#b9c9bf"
+        },
+        "tooltip": [
+            {
+                "field": "Physical activity name",
+                "type": "nominal",
+                "title": "Activity"
+            },
+            {
+                "field": "Participation rate (%)",
+                "type": "quantitative",
+                "title": "Participation rate",
+                "format": ".1f"
+            },
+            {
+                "field": "Estimated number of participants",
+                "type": "quantitative",
+                "title": "Estimated participants",
+                "format": ","
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": null,
+    "width": "container",
+    "height": 573,
+    "projection": {
+        "type": "mercator",
+        "center": [134, -27],
+        "scale": 600
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+                "format": {
+                    "type": "topojson",
+                    "feature": "ne_110m_admin_0_countries"
+                }
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "#eeeeee",
+                "stroke": "#ffffff",
+                "strokeWidth": 0.5
+            }
+        },
+        {
+            "data": {
+                "url": "../data/idiom10_running_events.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "mark": {
+                "type": "circle",
+                "opacity": 0.5,
+                "stroke": "#0d0606",
+                "strokeWidth": 1.5
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "size": {
+                    "field": "Finishers (2025)",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [20000, 75000],
+                        "range": [150, 1400]
+                    },
+                    "legend": {
+                        "title": "2025 finishers"
+                    }
+                },
+                "color": {
+                    "field": "Finishers Amount Change from 2024 (%)",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [-10, 0, 50],
+                        "range": ["#827A9E", "#F3EFE5", "#B96F52"]
+                    },
+                    "legend": {
+                        "title": "Change from 2024 (%)"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "Event Name",
+                        "type": "nominal",
+                        "title": "Event"
+                    },
+                    {
+                        "field": "State/Territory",
+                        "type": "nominal",
+                        "title": "State/Territory"
+                    },
+                    {
+                        "field": "Finishers (2025)",
+                        "type": "quantitative",
+                        "title": "2025 finishers",
+                        "format": ","
+                    },
+                    {
+                        "field": "Finishers Amount Change from 2024 (%)",
+                        "type": "quantitative",
+                        "title": "Change from 2024 (%)",
+                        "format": "+.1f"
+                    }
+                ]
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}
