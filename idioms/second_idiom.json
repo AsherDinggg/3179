@@ -4,7 +4,7 @@
     "width": "container",
     "height": 550,
     "data": {
-        "url": "data/idiom_3.csv"
+        "url": "data/second_idiom.csv"
     },
     "transform": [
         {
@@ -23,8 +23,8 @@
         {
             "mark": {
                 "type": "line",
-                "strokeWidth": 2,
-                "color": "#bdbdbd"
+                "strokeWidth": 3,
+                "color": "#918686"
             },
             "encoding": {
                 "y": {
@@ -55,7 +55,8 @@
             "mark": {
                 "type": "point",
                 "filled": true,
-                "size": 100
+                "size": 200,
+                "opacity": 1
             },
             "encoding": {
                 "y": {
@@ -70,21 +71,45 @@
                         "18-24",
                         "15-17"
                     ],
-                    "title": "Age group"
+                    "title": "Age group",
+                    "axis": {
+                                "labelFontSize": 14,
+                                "titleFontSize": 17,
+                                "grid": true
+                            }                    
                 },
                 "x": {
                     "field": "Participation Rate (%)",
                     "type": "quantitative",
-                    "title": "Participation rate (%)"
+                    "title": "Participation rate (%)",
+                    "axis": {
+                                "labelFontSize": 14,
+                                "titleFontSize": 17,
+                                "grid": true
+                            }
                 },
                 "color": {
                     "field": "Gender",
                     "type": "nominal",
                     "scale": {
                         "domain": ["Female", "Male"],
-                        "range": ["#C67A65", "#245747"]
+                        "range": ["#4B3621", "#264025"]
                     },
-                    "title": "Gender"
+                    "title": "Gender",
+                    "legend": {
+                        "orient": "top-right",
+                        "offset": 10,
+                        "padding": 12,
+                        "titleFontSize": 18,
+                        "titleColor": "#141414",
+                        "labelColor": "#262524",
+                        "labelFontSize": 14,
+                        "symbolSize": 180,
+                        "labelOffset": 8,
+                        "fillColor": "#e6eae5",
+                        "strokeColor": "#3738369c",
+                        "cornerRadius": 3
+                    }
                 },
                 "tooltip": [
                     {
@@ -107,6 +132,7 @@
         }
     ],
     "config": {
+        "background": "#cccfcb",
         "view": {
             "stroke": null
         }

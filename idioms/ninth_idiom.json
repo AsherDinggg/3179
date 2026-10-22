@@ -6,27 +6,27 @@
     "projection": {
         "type": "mercator",
         "center": [134, -27],
-        "scale": 600
+        "scale": 750
     },
     "layer": [
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+                "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
                 "format": {
-                    "type": "topojson",
-                    "feature": "ne_110m_admin_0_countries"
+                    "type": "json",
+                    "property": "features"
                 }
             },
             "mark": {
                 "type": "geoshape",
                 "fill": "#eeeeee",
                 "stroke": "#ffffff",
-                "strokeWidth": 0.5
+                "strokeWidth": 0.9
             }
         },
         {
             "data": {
-                "url": "data/idiom10_running_events.csv",
+                "url": "data/ninth_idiom.csv",
                 "format": {
                     "type": "csv"
                 }
@@ -54,7 +54,20 @@
                         "range": [150, 1400]
                     },
                     "legend": {
-                        "title": "2025 finishers"
+                        "title": "2025 finishers",
+                        "orient": "top-right",
+                        "direction": "vertical",
+                        "offset": 10,
+                        "padding": 12,
+                        "titleFontSize": 16,
+                        "titleColor": "#141414",
+                        "labelColor": "#262524",
+                        "labelFontSize": 12,
+                        "symbolSize": 180,
+                        "labelOffset": 8,
+                        "fillColor": "#e6eae5",
+                        "strokeColor": "#3738369c",
+                        "cornerRadius": 3
                     }
                 },
                 "color": {
@@ -62,10 +75,23 @@
                     "type": "quantitative",
                     "scale": {
                         "domain": [-10, 0, 50],
-                        "range": ["#827A9E", "#F3EFE5", "#B96F52"]
+                        "range": ["#75609A", "#E8DCC8", "#C66A3D"]
                     },
                     "legend": {
-                        "title": "Change from 2024 (%)"
+                        "title": "Change from 2024 (%)",
+                        "orient": "top-right",
+                        "direction": "horizontal",
+                        "offset": 10,
+                        "padding": 8,
+                        "titleFontSize": 13,
+                        "titleColor": "#141414",
+                        "labelColor": "#262524",
+                        "labelFontSize": 11,
+                        "fillColor": "#e6eae5",
+                        "strokeColor": "#3738369c",
+                        "cornerRadius": 3,
+                        "gradientLength": 140,
+                        "gradientThickness": 17
                     }
                 },
                 "tooltip": [
@@ -96,6 +122,7 @@
         }
     ],
     "config": {
+        "background": "#cccfcb",
         "view": {
             "stroke": null
         }

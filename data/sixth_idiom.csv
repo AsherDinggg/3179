@@ -1,0 +1,9 @@
+State_Territory,longitude,latitude,Total_Offerings,Under_5_km,5_km,10_km,Half_marathon,Marathon,Other_distance
+Australian Capital Territory,149.1,-35.3,12,1,2,3,2,2,2
+New South Wales,147.0,-32.0,75,6,12,14,13,11,19
+Northern Territory,133.0,-19.0,2,1,0,0,0,0,1
+Queensland,145.0,-22.0,36,3,9,8,9,6,1
+South Australia,136.0,-30.0,17,0,4,4,3,1,5
+Tasmania,146.5,-42.0,17,0,6,6,3,2,0
+Victoria,145.0,-36.5,55,3,8,11,13,10,10
+Western Australia,121.5,-25.5,30,2,5,6,8,5,4

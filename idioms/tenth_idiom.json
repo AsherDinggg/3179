@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": null,
     "data": {
-        "url": "data/idiom_12.csv"
+        "url": "data/tenth_idiom.csv"
     },
     "facet": {
         "field": "Month",
@@ -20,8 +20,8 @@
     },
     "columns": 3,
     "spec": {
-        "width": 190,
-        "height": 80,
+        "width": 315,
+        "height": 200,
         "mark": {
                 "type": "rect",
                 "stroke": "white",
@@ -39,6 +39,7 @@
                         "title": null,
                         "labelAngle": -45,
                         "labelFontSize": 9,
+                        "titleFontSize": 15,
                         "labelLimit": 40,
                         "labelOverlap": false,
                         "ticks": false,
@@ -52,7 +53,7 @@
                     "sort": [1,2,3,4,5],
                     "axis": {
                         "title": null,
-                        "labelFontSize": 9,
+                        "labelFontSize": 13,
                         "ticks": false,
                         "domain": false
                     }
@@ -66,7 +67,18 @@
                     "legend": {
                         "title": "Events",
                         "orient": "bottom",
-                        "gradientLength": 120
+                        "direction": "horizontal",
+                        "offset": 10,
+                        "padding": 8,
+                        "titleFontSize": 16,
+                        "titleColor": "#141414",
+                        "labelColor": "#262524",
+                        "labelFontSize": 12,
+                        "fillColor": "#e6eae5",
+                        "strokeColor": "#3738369c",
+                        "cornerRadius": 3,
+                        "gradientLength": 140,
+                        "gradientThickness": 17
                     }
                 },
                 "tooltip": [
@@ -90,6 +102,7 @@
             }
         },
         "config": {
+            "background": "#cccfcb",
             "view": {
                 "stroke": null
             },

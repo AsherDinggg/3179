@@ -8,12 +8,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
     <script src="vega_lite_vis.js" defer></script>
+    <script src="seventh_idiom.js" defer></script>
+
 </head>
 
 <body>
     <header class="main-body">
 
-        <h1>Beyond the Finish Line: Exploring Running as a Hobby in Australia</h1>
+        <h1 class="main-title">Beyond the Finish Line: Exploring Running as a Hobby in Australia</h1>
 
         <p class="subtitle">
             From everyday joggers to marathon runners, uncovering participation 
@@ -26,78 +28,89 @@
     <main>
         <!-- INTRODUCTION -->
         <section class="introduction" id="explore">
-            <p class="section-label">01 / INTRODUCTION</p>
+            <p class="section-label">01 - INTRODUCTION</p>
 
-            <h2>More than just putting one foot in front of the other</h2>
+            <h2 class="subheading">More than just putting one foot in front of the other</h2>
 
-            <p>
+            <p class="section-description">
                 From a casual jog around the neighbourhood to training consistently <br> for a marathon, running offers something for people at every <br> level. 
-            </p>
-            <p>
-                For many runners, there is a reason to keep going, <br>whether it is staying healthy, relieving stress, <br>building friendships, or achieving personal goals.
-            </p>
-            <p>
-                Let's take a deeper dive into the trends behind this <br> popular hobby.
+                For many runners, there is a reason to run, <br> whether it is staying healthy, relieving stress, <br> building friendships, or achieving personal <br> 
+                goals. Let's take a deeper dive into the <br> trends behind this popular hobby.
             </p>
 
         </section>
 
         <!-- SECTION 02: RUNNING PARTICIPATION -->
         <section class="visualisations" id="participation">
-            <p class="section-label">02 / RUNNING PARTICIPATION</p>
+            <p class="section-label">02 - RUNNING POPULARITY</p>
 
-            <h2>How popular is running?</h2>
+            <h2 class="subheading">How popular is running in Australia?</h2>
 
             <p class="section-description">
-                Discover how running compares with other physical activities,
-                which age groups participate, and what motivates Australians to run.
+                Discover how running compares with other physical activities, <br>
+                participant demography, and their motivation to run.
             </p>
 
             <div class="chart-grid">
 
-                <!-- CHART 1: Horizontal Bar Chart -->
+                <!-- Idiom 1: Horizontal Bar Chart -->
                 <div class="chart-row-half">
                     <article class="chart-card">
-                        <h3>How Popular Is Running Compared with Other Activities?</h3>
+                        <h3 class="idiom-title">Running Compared with Other Popular Activities</h3>
                         
                         <p>
-                            <b>Compare running participation with other selected
-                            physical activities in Australia.</b> <br>
-                            <em>Source: AusPlay</em>
+                            <b class="idiom-description">Compare running participation with other selected
+                            physical activities in Australia.</b> <br> <em class="source-display">Source: AusPlay</em>
                         </p>
 
-                        <div id="idiom1"></div>
+                        <div id="first_idiom"></div>
                     </article>
                 </div>
 
-                <!-- CHART 3: Dumbbell Chart -->
+                <!-- CHART 2: Dumbbell Chart -->
                 <div class="chart-row-half">
                     <article class="chart-card">
-                        <h3>Which Age Groups Participate Most in Running?</h3>
+                        <h3 class="idiom-title">Gender Gaps in Running Participation Across Age Groups</h3>
                         
                         <p>
-                            <b>Compare female and male running/jogging participation
+                            <b class="idiom-description">Compare female and male running participation
                             rates across different <br> age groups in Australia.</b><br>
-                            <em>Source: AusPlay, Table 1</em>
+                            <em class="source-display">Source: AusPlay</em>
                         </p>
 
-                        <div id="idiom3"></div>
+                        <div id="second_idiom"></div>
                     </article>
                 </div>
 
-                <!-- CHART 9: Heatmap -->
+                <!-- CHART 3: Marimekko Chart -->
+                <div class="chart-row-half">
+                    <article class="chart-card">
+                        <h3 class="idiom-title">Running Participation Among Australians with Disabilities</h3>
+                        
+                        <p>
+                            <b class="idiom-description">Compare estimated participation in running and other
+                                popular <br> sports across three age groups.</b> <br>  
+                            <em class="source-display">Source: AuSport</em>  
+                        </p>
+
+                        <div id="third_idiom"></div>
+
+                    </article>
+                </div>
+
+                <!-- CHART 4: Heatmap -->
                 <div class="chart-row-full">
                     <article class="chart-card chart-card-full">
 
-                        <h3>What Made Running a Hobby for You?</h3>
+                        <h3 class="idiom-title">What Are the Main Motivation for Running?</h3>
                         
                         <p>
-                            <b>Explore how motivations for running differ across age groups,
+                            <b class="idiom-description">Explore how motivations for running differ across age groups,
                             from <br> physical fitness and enjoyment to mental health and nature.</b><br>
-                            <em>Source: AusPlay, Page 17</em>
+                            <em class="source-display">Source: AusPlay</em>
                         </p>
 
-                        <div id="idiom9"></div>
+                        <div id="fourth_idiom"></div>
                     </article>
                 </div>
             
@@ -105,13 +118,12 @@
         </section>
 
         <div class="section-divider">
-            <p class="section-label">03 / RUNNING ACROSS AUSTRALIA</p>
+            <p class="section-label">03 - RUNNING ACROSS AUSTRALIA</p>
 
-            <h2>Where do Australians run?</h2>
+            <h2 class="subheading">Exploring Australia's Running Landscape</h2>
 
             <p class="section-description">
-                Explore differences in running participation across Australian
-                states and discover <br> scenic routes for recreational runners.
+                Discover where Australian's run, the type of events available, <br> and distribution in running expenditure across states and territories.
             </p>
         </div>
 
@@ -122,48 +134,101 @@
                 <!-- CHART 5: Choropleth Map -->
                 <div class="chart-row-half">
                     <article class="chart-card chart-card-full">
-                        <h3>How Does Running Participation Vary Across Australia?</h3>
+                        <h3 class="idiom-title">Where Is Running Most Popular?</h3>
                         
                         <p>
-                            <b>Compare running/jogging participation rates across
+                            <b class="idiom-description">Compare running participation rates across
                             Australian states and territories.</b> <br>
-                            <em>Source: AusPlay</em>
+                            <em class="source-display">Source: AusPlay</em>
                         </p>
 
-                        <div id="idiom5"></div>
+                        <div id="fifth_idiom"></div>
                     </article>
                 </div>
 
-                <!-- CHART 11: Categorical Dot Map -->
+                <!-- CHART 6: Proportional Symbol Chart -->
                 <div class="chart-row-half">
                     <article class="chart-card">
-
-                        <h3>Where Can You Run?</h3>
+                        <h3 class="idiom-title">What Running Events Are Available Across Australia?</h3>
                         
                         <p>
-                            <b>Explore scenic routes across Australia, from coastal
-                            walks to rainforest <br> and urban lake circuits. Hover over
-                            each dot to discover <br> its distance and terrain.</b> <br>
-                            <em>Source: NSW Government, NSW National Parks, Parks Victoria,
-                            Parks Tasmania <br> and Queensland Parks</em>
+                            <b class="idiom-description">Explore the types of running distances offered across
+                            <br> Australian states and territories. </b> <br>  
+                            <em class="source-display">Source: RunCal</em>  
                         </p>
 
-                        <div id="idiom11"></div>
+                        <div id="sixth_idiom"></div>
+
                     </article>
                 </div>
 
+                <!-- CHART 7: Choropleth Map -->
+                <div class="chart-row-half">
+                    <article class="chart-card">
+                        <h3 class="idiom-title">How Much Do Australians Spend on Running?</h3>
+                        
+                        <p>
+                            <b class="idiom-description">Compare total expenditure on running between adults and children <br> 
+                                across Australian states and territories. </b> <br>  
+                            <em class="source-display">Source: AusPlay</em>  
+                        </p>
+
+                        <!-- Present performance metrics -->
+                        <div  class="expenditure-metrics">
+                            <h4>Running Expenditure at a Glance</h4>
+                            <div class="metric-grid">
+                                <div class="metric-card">
+                                    <p class="metric-label">Mean Expenditure</p>
+                                    <p class="metric-value" id="metric-mean">$392</p>
+                                </div>
+
+                                <div class="metric-card">
+                                    <p class="metric-label">Median Expenditure</p>
+                                    <p class="metric-value" id="metric-median">$150</p>
+                                </div>
+
+                                <div class="metric-card">
+                                    <p class="metric-label">Paid Participants</p>
+                                    <p class="metric-value" id="metric-participants">776,741</p>
+                                </div>
+
+                                <div class="metric-card">
+                                    <p class="metric-label">Total Expenditure</p>
+                                    <p class="metric-value" id="metric-total">$304.7m</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="seventh_idiom"></div>
+
+                        <div class="map-controls-row">
+                            <div class="map-filter">
+                                <label for="age-group-filter">Age group</label>
+                                <select id="age-group-filter">
+                                    <option value="Adult" selected>Adult</option>
+                                    <option value="Child">Child</option>
+                                </select>
+                            </div>
+
+                            <p class="metric-insight" id="metric-insight">
+                                Adult mean expenditure is $155 higher than child mean expenditure nationally
+                            </p>
+                        </div>
+
+                    </article>
+                </div>
 
             </div>
         </section>
 
         <div class="section-divider">
-            <p class="section-label">04 / RUNNING EVENTS AND COMPETITION</p>
+            <p class="section-label">04 - RUNNING EVENTS AND COMPETITION</p>
 
-                <h2>From local runs to major events</h2>
+                <h2 class="subheading">From Local Runs to Major Events</h2>
 
                 <p class="section-description">
                     Explore marathon participation trends, Australia's largest running events, and the 
-                    <br>calendar of organised trail and ultra-running events.
+                    <br>2025 calendar of trail and ultra-running events.
                 </p>
         </div>
 
@@ -172,56 +237,51 @@
         
                 <div class="chart-grid">
 
-                    <!-- CHART 6: Waterfall Chart -->
+                    <!-- CHART 8: Waterfall Chart -->
                     <div class="chart-row-full">
                         <article class="chart-card chart-card-full">
-                            <h3>How Has the Average Number of Marathon 
-                                Performances per Event Changed?</h3>
+                            <h3 class="idiom-title">Marathon Participation Trends (2010 - 2025)</h3>
                             
                             <p>
-                                <b>Explore year-on-year increases and decreases in the 
-                                average number of <br> marathon performances per event in
+                                <b class="idiom-description">Explore year-on-year increases and decreases in the 
+                                average number of <br> marathon participants per event in
                                 Australia from 2010 to 2025.</b> <br>
-                                <em>Source: AusRunning, Number of Marathons and Finishers</em>
+                                <em class="source-display">Source: AusRunning, Number of Marathons and Finishers</em>
                             </p>
 
-                            <div id="idiom6"></div>
+                            <div id="eight_idiom"></div>
                         </article>
                     </div>
 
-                    <!-- CHART 10: Proportional Symbol Map -->
+                    <!-- CHART 9: Proportional Symbol Map -->
                     <div class="chart-row-half">
                         <article class="chart-card">
-                            <h3>Australia's Largest Running Events</h3>
+                            <h3 class="idiom-title">Australia's Biggest Running Events (2025)</h3>
                             
                             <p>
-                                <b>Explore the top 10 running events by finishers
-                                and compare <br> changes from the previous year.</b><br>
-                                <em>Source: Run2, Australia's 10 Largest Running Events</em>
+                                <b class="idiom-description">Explore the top 10 running events based on number of <br> 
+                                    finishers and compare changes from the previous year.</b><br>
+                                <em class="source-display">Source: Run2, Australia's 10 Largest Running Events</em>
                             </p>
 
-                            <div id="idiom10_running_events"></div>
+                            <div id="ninth_idiom"></div>
                         </article>
                     </div>
 
-                    <!-- CHART 12: Calendar Heatmap -->
+                    <!-- CHART 10: Calendar Heatmap -->
                     <div class="chart-row-half">
                         <article class="chart-card">
-                            <h3>When Do Running Events Take Place?</h3>
+                            <h3 class="idiom-title">A Year of Trail and Ultra-Running Events</h3>
                             
                             <p>
-                                <b>Explore how AUTRA-listed trail and ultra-running events
+                                <b class="idiom-description">Explore how the trail and ultra-running events
                                 are distributed <br> throughout the year.</b> <br>  
-                                <em>Source: Australian Ultra & Trail Runners Association (AUTRA),
-                                2025 events calendar.</em>  
+                                <em class="source-display">Source: AUTRA, 2025 events calendar.</em>  
                             </p>
 
-                            <div id="idiom12"></div>
-
-                            
+                            <div id="tenth_idiom"></div>
                         </article>
                     </div>
-
                 </div>
             </section>
 
@@ -233,15 +293,14 @@
             Data Visualisation Assignment 2 | Asher Ding | 35037741
         </p>
         <p>
-            Source: <a href="https://www.ausport.gov.au/clearinghouse/research/ausplay/results" target="_blank" rel="noopener noreferrer">AusPlay</a> |
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiZjFiNDAxYmItMTRjNy00MmE0LTg3NDctOWEzODIyMzcyODFiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9" target="_blank" rel="noopener noreferrer">AusPlay Power BI</a> |
-            <a href="https://ausrunning.net/stats/number-of-marathons-and-finishers.php" target="_blank" rel="noopener noreferrer">Ausrunning</a> |
-            <a href="https://run2.au/discover-australias-10-largest-running-events-2026-guide-based-on-2025-results/" target="_blank" rel="noopener noreferrer">run2.au</a> | 
-            <a href="https://parks.tas.gov.au/explore-our-parks/" target="_blank" rel="noopener noreferrer">Tasmania Parks and Wildlife Service</a> | 
-            <a href="https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/bondi-to-coogee-coastal-walk" target="_blank" rel="noopener noreferrer">NSW Government</a> | <br>
-            <a href="https://parks.qld.gov.au/parks" target="_blank" rel="noopener noreferrer">Queensland Government</a> | 
-            <a href="https://www.nationalparks.nsw.gov.au/get-inspired/stories/the-best-trails-to-run-in-nsw-national-parks" target="_blank" rel="noopener noreferrer">NSW National Park & Wildlife Services</a>
-            <a href="https://www.parks.vic.gov.au/things-to-do/trail-running" target="_blank" rel="noopener noreferrer">Parks Victoria</a>
+            Source: AusPlay - <a href="https://www.ausport.gov.au/clearinghouse/research/ausplay/results" target="_blank" rel="noopener noreferrer">Link</a>,
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9" target="_blank" rel="noopener noreferrer">Link</a>,
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiZjFiNDAxYmItMTRjNy00MmE0LTg3NDctOWEzODIyMzcyODFiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9p" target="_blank" rel="noopener noreferrer">Link</a> <br>
+            <a href="https://run2.au/discover-australias-10-largest-running-events-2026-guide-based-on-2025-results/" target="_blank" rel="noopener noreferrer">Run2.au</a> |
+            <a href="https://runcal.au/" target="_blank" rel="noopener noreferrer">RunCal</a> | 
+            <a href="https://www.ausport.gov.au/clearinghouse/evidence/persons-with-disability-and-sport" target="_blank" rel="noopener noreferrer">AUSport</a> <br>
+            <a href="https://ausrunning.net/stats/number-of-marathons-and-finishers.php" target="_blank" rel="noopener noreferrer">AUSRunning</a> | 
+            <a href="https://www.autra.asn.au/upcoming-events" target="_blank" rel="noopener noreferrer">AUTRA</a>
         </p>
     </footer>
 

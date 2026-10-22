@@ -1,0 +1,99 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": null,
+    "width": "container",
+    "height": 550,
+    "projection": {
+        "type": "mercator",
+        "center": [134, -27],
+        "scale": 750
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
+                "format": {
+                    "type": "json",
+                    "property": "features"
+                }
+            },
+            "transform": [
+                {
+                    "calculate": "datum.properties.STATE_NAME === 'Australian Capital Territory' ? 'ACT' : datum.properties.STATE_NAME === 'New South Wales' ? 'NSW' : datum.properties.STATE_NAME === 'Northern Territory' ? 'NT' : datum.properties.STATE_NAME === 'Queensland' ? 'QLD' : datum.properties.STATE_NAME === 'South Australia' ? 'SA' : datum.properties.STATE_NAME === 'Tasmania' ? 'TAS' : datum.properties.STATE_NAME === 'Victoria' ? 'VIC' : datum.properties.STATE_NAME === 'Western Australia' ? 'WA' : 'Unknown'",
+                    "as": "StateCode"
+                },    
+                {
+                    "lookup": "StateCode",
+                    "from": {
+                        "data": {
+                            "url": "data/seventh_idiom.csv",
+                            "format": {
+                            "type": "csv"
+                            }
+                        },
+                        "key": "State of residence",
+                        "fields": [
+                            "Mean Expenditure (Adult)",
+                            "Mean Expenditure (Child)"
+                        ]
+                    }
+                },
+                {
+                    "calculate": "toNumber(datum['Mean Expenditure (Adult)'])",
+                    "as": "Selected Mean Expenditure"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "stroke": "#ffffff",
+                "strokeWidth": 1
+            },
+            "encoding": {
+                "color": {
+                    "field": "Selected Mean Expenditure",
+                    "type": "quantitative",
+                    "title": "Mean expenditure ($)",
+                    "scale": {
+                        "domain": [0, 550],
+                        "range": ["#FCE4D6", "#F4B183", "#E67E22", "#B95320"]
+                    },
+                    "legend": {
+                        "orient": "bottom-left",
+                        "direction": "horizontal",
+                        "offset": 10,
+                        "padding": 12,
+                        "titleFontSize": 16,
+                        "titleColor": "#141414",
+                        "labelColor": "#262524",
+                        "labelFontSize": 12,
+                        "symbolSize": 180,
+                        "labelOffset": 8,
+                        "fillColor": "#e6eae5",
+                        "strokeColor": "#3738369c",
+                        "cornerRadius": 3,
+                        "gradientLength": 165
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "properties.STATE_NAME",
+                        "type": "nominal",
+                        "title": "State/Territory"
+                    },
+                    {
+                        "field": "Selected Mean Expenditure",
+                        "type": "quantitative",
+                        "title": "Mean expenditure ($)",
+                        "format": ",.0f"
+                    }
+                ]
+            }
+        }
+    ],
+    "config": {
+        "background": "#cccfcb",
+        "view": {
+            "stroke": null
+        }
+    }
+}

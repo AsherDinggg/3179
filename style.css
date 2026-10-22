@@ -1,4 +1,4 @@
-/* /*
+/* 
 GENERAL PAGE STYLING
 */
 
@@ -11,11 +11,18 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: #f7f6f2;
+    background-color: #4d574a;
     color: #263b32;
-    line-height: 1.7;
+}
+
+/* MAIN PAGE CONTENT */
+
+main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
 /*
@@ -26,7 +33,7 @@ MAIN BODY BANNER
     position: relative;
     isolation: isolate;
     background:
-        linear-gradient(rgba(20, 58, 43, 0.45), rgba(20, 58, 43, 0.45)),
+        linear-gradient(rgba(20, 58, 43, 0.89), rgba(20, 58, 43, 0.89)),
         url("images/running_image.png") center 55% / cover no-repeat;
     color: white;
     text-align: center;
@@ -34,31 +41,34 @@ MAIN BODY BANNER
 }
 
 .main-title {
-    color: #c7dfbd;
-    font-size: 0.8rem;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-
-.main-body h1 {
+    color: #edf5ea;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 2);
     max-width: 950px;
     margin: 0 auto 24px;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 3rem;
-    font-weight: 700;
+    font-family: "Book Antiqua", serif;
+    word-spacing: 7px;
+    font-size: 3.9rem;
     line-height: 1.2;
 }
 
 .subtitle {
     max-width: 750px;
     margin: 0 auto 30px;
-    color: #e0e9df;
-    font-size: 1.1rem;
+    color: #cfd7d2;
+    font-size: 1.2rem;
+    font-family: "Century Gothic", sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/*
-Link that jumps to the introduction
-*/
+.subheading {
+    font-family: "Book Antiqua", serif;
+    font-weight: 900;
+    font-size: 2.6rem;
+    color: #eaedd6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Link that jumps to the introduction */
 
 .explore-link {
     display: inline-block;
@@ -71,43 +81,22 @@ Link that jumps to the introduction
 }
 
 .explore-link:hover {
-    background-color: white;
+    background-color: #4d574a;
     color: #244d3c;
 }
 
-/*
-MAIN PAGE CONTENT
-*/
 
-main {
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
-    padding: 0 clamp(20px, 4vw, 64px);
-}
-
-section h2 {
-    font-size: 2rem;
-    line-height: 1.3;
-    margin-top: 0;
-    /* margin-bottom: 20px; */
-}
-
-section p {
-    overflow-wrap: anywhere;
-}
 
 .section-label {
-    color: #62866b;
-    font-size: 0.8rem;
-    font-weight: bold;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 800;
     letter-spacing: 2px;
     margin-top: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/*
-INTRODUCTION
-*/
+/* INTRODUCTION */
 
 .introduction {
     max-width: none;
@@ -115,76 +104,42 @@ INTRODUCTION
     margin: 0;
 }
 
-.introduction p:not(.section-label) {
-    color: #526159;
-}
-
-/*
-VISUALIZATION SECTIONS
-*/
+/* VISUALIZATION SECTIONS */
 
 .section-description {
-    max-width: 750px;
-    color: #647068;
+    color: #d0d3d1;
+    font-size: 1.2rem;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
-
-/* Arrange chart cards in two columns */
 
 .chart-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 24px;
     width: 100%;
-    align-items: stretch;
+    align-items: start;
 }
 
 /* INDIVIDUAL CHART CARDS */
 
 .chart-card {
-    background-color: white;
+    background-color: #788076;
     min-width: 0;
     height: fit-content;
     align-self: start;
-    border: 1px solid #e1e5dc;
-    box-shadow: 0 3px 12px rgba(35, 60, 45, 0.04);
-    padding: 24px;
+    box-shadow: 0 3px 12px rgba(35, 60, 45, 0.2);
+    padding: 1px 24px 0px 24px;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-.chart-number {
-    color: #62866b;
-    font-size: 0.75rem;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-}
-
-.chart-card h3 {
-    font-size: 1.25rem;
-    line-height: 1.4;
-    margin: 12px 0;
-}
-
-.chart-card > p:not(.chart-number):not(.source) {
-    color: #647068;
-    font-size: 0.95rem;
-}
-
-/* Temporary chart area */
-
-.chart-placeholder {
-    margin-bottom: 24px;
-    padding: 20px;
-    background-color: #f1f4ed;
-    border: 1px dashed #aabca9;
-    border-radius: 6px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    color: #66806a;
-    font-size: 0.9rem;
+.idiom-title {
+    font-family: "Book Antiqua", serif;
+    color: #f7f9ec;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 1.8rem;
 }
 
 /* Source attribution under each chart */
@@ -195,16 +150,16 @@ VISUALIZATION SECTIONS
     font-size: 0.8rem;
 }
 
-/*
-FOOTER
-*/
-
+/* FOOTER */
 footer {
-    background-color: #2e3946;
-    color: #f5f2ea;
+    background-color: #454d43;
     text-align: center;
     padding: 32px 24px;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 1.3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)
 }
 
 footer a {
@@ -221,28 +176,48 @@ footer a:hover {
 
 /* IDIOMS */
 
-/* IDIOM 10 */
-#idiom10_running_events, #idiom1, 
-#idiom3, #idiom5, #idiom6, #idiom9, 
-#idiom11, #idiom12 {
+#first_idiom, #second_idiom, #third_idiom, 
+#fourth_idiom, #fifth_idiom, #sixth_idiom, 
+#seventh_idiom, #eight_idiom, #ninth_idiom, 
+#tenth_idiom {
     width: 100%;
     max-width: 100%;
     overflow: hidden;
 }
-#idiom10-running_events .vega-embed, 
-#idiom1 .vega-embed, 
-#idiom3 .vega-embed,
-#idiom5 .vega-embed, 
-#idiom6 .vega-embed,
-#idiom9 .vega-embed, 
-#idiom11 .vega-embed,
-#idiom12 .vega-embed
+
+#first_idiom .vega-embed, 
+#second_idiom .vega-embed,
+#third_idiom .vega-embed,
+#fourth_idiom .vega-embed, 
+#fifth_idiom .vega-embed, 
+#sixth_idiom .vega-embed,
+#seventh_idiom .vega-embed,
+#eight_idiom .vega-embed,
+#ninth_idiom .vega-embed
+#tenth_idiom .vega-embed
 {
     width: 100%;
     max-width: 100%;
 }
-#idiom10_running_Events .vega-embed details {
+
+#ninth_idiom .vega-embed details {
     position: relative;
+}
+
+.idiom-description {
+    font-size: 1rem;
+}
+
+.source-display {
+    font-size: 0.8rem;
+    padding: 10px 0px 5px 0px;
+}
+
+.idiom-description, .source-display {
+    color: #ffffff;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 1.3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)
 }
 
 .chart-row-full {
@@ -257,17 +232,116 @@ footer a:hover {
     box-sizing: border-box;
 }
 
-/* Format for 2 idioms in 1 row */
-.chart-row-half {
-    grid-column: span 1;
-    width: 100%;
-    min-width: 0;
+.chart-row-full, .chart-row-half {
+    align-self: start;
 }
 
-.chart-row-half .chart-card {
-    width: 100%;
-    max-width: none;
+.vega-tooltip {
+    text-align: left;
+}
+.vega-tooltip table {
+    text-align: left;
+}
+.vega-tooltip th,
+.vega-tooltip td,
+.vega-tooltip tr {
+    text-align: left;
+}
+
+/* Idiom 7 */
+#seventh_idiom select {
+    background-color: #f5eee8;
+    color: #493d35;
+    border: 1px solid #d8c9bd;
+    border-radius: 8px;
+    padding: 7px 30px 7px 12px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.expenditure-metrics {
+    margin: 18px 0 8px;
+    padding: 18px;
+    background: #e0e0df;
+    border-radius: 8px;
+    color: #000000
+}
+.expenditure-metrics h4 {
+    margin: 0 0 14px;
+    font-size: 18px;
+}
+.metric-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+.metric-card {
+    padding: 14px;
+    background: #f7f7f7;
+    border-radius: 6px;
+    border-left: 4px solid #df9960;
     min-width: 0;
+}
+.metric-label {
+    margin: 0 0 8px;
+    font-size: 12px;
+}
+.metric-value {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+.metric-insight {
+    padding-bottom: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 1.3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)
+}
+
+.map-controls-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    margin-top: 8px;
+    padding: 0 4px 6px;
+}
+
+.map-controls-row .map-filter {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    flex-shrink: 0;
+}
+
+.map-controls-row .metric-insight {
+    margin: 0;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: right;
+}
+
+.map-filter label {
+    color: #ffffff;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /*
@@ -314,21 +388,13 @@ RESPONSIVE DESIGN
     .chart-row-full {
         grid-column: 1 / -1;
     }
+    .metric-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .metric-value {
+        font-size: 19px;
+    }
 }
 
-.chart-row-full, .chart-row-half {
-    height: fit-content;
-    align-self: start;
-}
 
-.vega-tooltip {
-    text-align: left;
-}
-.vega-tooltip table {
-    text-align: left;
-}
-.vega-tooltip th,
-.vega-tooltip td,
-.vega-tooltip tr {
-    text-align: left;
-}
+

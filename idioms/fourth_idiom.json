@@ -2,9 +2,9 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": null,
     "width": "container",
-    "height": 550,
+    "height": 600,
     "data": {
-        "url": "data/idiom_9.csv"
+        "url": "data/fourth_idiom.csv"
     },
     "mark": {
                 "type": "rect",
@@ -24,7 +24,12 @@
                 "18-24",
                 "15-17"
                     ],
-            "title": "Age group"
+            "title": "Age group",
+            "axis": {
+                        "labelFontSize": 14,
+                        "titleFontSize": 17,
+                        "grid": false
+                    }
         },
         "x": {
             "field": "Motivation",
@@ -32,7 +37,10 @@
             "title": "Motivation",
             "axis": {
                 "labelAngle": -35,
-                "labelLimit": 180
+                "labelLimit": 180,
+                "labelFontSize": 14,
+                "titleFontSize": 17,
+                "grid": false
             }
         },
         "color": {
@@ -41,6 +49,19 @@
             "title": "Percentage (%)",
             "scale": {
                 "range": ["#E3EBDD", "#A9C5A5", "#568875", "#245747"]
+            },
+            "legend": {
+                "orient": "bottom",
+                "padding": 10,
+                "direction": "horizontal",
+                "titleFontSize": 16,
+                "titleColor": "#141414",
+                "labelColor": "#262524",
+                "labelFontSize": 10,
+                "labelOffset": 8,
+                "fillColor": "#e6eae5",
+                "strokeColor": "#3738369c",
+                "cornerRadius": 3
             }
         },
         "tooltip": [
@@ -63,6 +84,7 @@
         ]
     },
     "config": {
+        "background": "#cccfcb",
         "view": {
             "stroke": null
         }

@@ -4,13 +4,13 @@
     "width": "container",
     "height": 573,
     "data": {
-        "url": "data/idiom_1.csv"
+        "url": "data/first_idiom.csv"
     },
     "mark": {
         "type": "bar",
         "cornerRadiusEnd": 4,
         "tooltip": true,
-        "color": "#B96F52"
+        "color": "#b99a51c9"
     },
     "encoding": {
         "y": {
@@ -19,8 +19,8 @@
             "sort": "-x",
             "title": "Physical activity",
             "axis": {
-                "labelFontSize": 12,
-                "titleFontSize": 13,
+                "labelFontSize": 14,
+                "titleFontSize": 17,
                 "labelLimit": 180
             }
         },
@@ -32,8 +32,8 @@
                 "zero": true
             },
             "axis": {
-                "labelFontSize": 11,
-                "titleFontSize": 13,
+                "labelFontSize": 14,
+                "titleFontSize": 17,
                 "grid": true
             }
         },
@@ -58,6 +58,7 @@
         ]
     },
     "config": {
+        "background": "#cccfcb",
         "view": {
             "stroke": null
         }

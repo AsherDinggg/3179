@@ -6,24 +6,9 @@
     "projection": {
         "type": "mercator",
         "center": [134, -27],
-        "scale": 600
+        "scale": 750
     },
     "layer": [
-        {
-            "data": {
-                "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
-                "format": {
-                    "type": "topojson",
-                    "feature": "ne_110m_admin_0_countries"
-                }
-            },
-            "mark": {
-                "type": "geoshape",
-                "fill": "#eeeeee",
-                "stroke": "#ffffff",
-                "strokeWidth": 0.5
-            }
-        },
         {
             "data": {
                 "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
@@ -37,7 +22,7 @@
                     "lookup": "properties.STATE_NAME",
                     "from": {
                         "data": {
-                            "url": "data/idiom_5.csv"
+                            "url": "data/fifth_idiom.csv"
                         },
                         "key": "State",
                         "fields": [
@@ -59,6 +44,22 @@
                     "title": "Participation rate (%)",
                     "scale": {
                         "range": ["#D5E5E7", "#91BEC3", "#4F929C", "#28616B"]
+                    },
+                    "legend": {
+                        "orient": "bottom-left",
+                        "direction": "horizontal",
+                        "offset": 10,
+                        "padding": 12,
+                        "titleFontSize": 16,
+                        "titleColor": "#141414",
+                        "labelColor": "#262524",
+                        "labelFontSize": 12,
+                        "symbolSize": 180,
+                        "labelOffset": 8,
+                        "fillColor": "#e6eae5",
+                        "strokeColor": "#3738369c",
+                        "cornerRadius": 3,
+                        "gradientLength": 165
                     }
                 },
                 "tooltip": [
@@ -78,6 +79,7 @@
         }
     ],
     "config": {
+        "background": "#cccfcb",
         "view": {
             "stroke": null
         }

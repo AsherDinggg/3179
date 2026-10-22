@@ -4,7 +4,7 @@
     "width": "container",
     "height": 550,
     "data": {
-        "url": "data/idiom_6.csv"
+        "url": "data/eight_idiom.csv"
     },
     "transform": [
         {
@@ -21,7 +21,12 @@
             "field": "Year",
             "type": "ordinal",
             "sort": "ascending",
-            "title": "Year"
+            "title": "Year",
+            "axis": {
+                        "labelFontSize": 14,
+                        "titleFontSize": 17,
+                        "grid": true
+                    }
         },
         "y": {
             "field": "Waterfall Start",
@@ -29,7 +34,12 @@
             "title": "Average performances per event",
             "scale": {
                 "domain": [0, 650]
-            }
+            },
+            "axis": {
+                        "labelFontSize": 14,
+                        "titleFontSize": 17,
+                        "grid": true
+                    }
         },
         "y2": {
             "field": "Waterfall End"
@@ -43,7 +53,18 @@
             },
             "legend": {
                 "title": "Year-on-year change",
-                "orient": "bottom"
+                "orient": "bottom",
+                "direction": "horizontal",
+                "padding": 12,
+                "titleFontSize": 16,
+                "titleColor": "#141414",
+                "labelColor": "#262524",
+                "labelFontSize": 12,
+                "symbolSize": 180,
+                "labelOffset": 5,
+                "fillColor": "#e6eae5",
+                "strokeColor": "#3738369c",
+                "cornerRadius": 3
             }
         },
         "tooltip": [
@@ -66,6 +87,7 @@
         ]
     },
     "config": {
+        "background": "#cccfcb",
         "view": {
             "stroke": null
         }
