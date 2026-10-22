@@ -74,8 +74,7 @@
                     "title": "Age group",
                     "axis": {
                                 "labelFontSize": 14,
-                                "titleFontSize": 17,
-                                "grid": true
+                                "titleFontSize": 17
                             }                    
                 },
                 "x": {

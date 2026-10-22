@@ -14,14 +14,14 @@
         ],
         "header": {
             "title": null,
-            "labelFontSize": 13,
+            "labelFontSize": 14,
             "labelFontWeight": "bold"
         }
     },
     "columns": 3,
     "spec": {
         "width": 315,
-        "height": 200,
+        "height": 220,
         "mark": {
                 "type": "rect",
                 "stroke": "white",
@@ -38,13 +38,12 @@
                     "axis": {
                         "title": null,
                         "labelAngle": -45,
-                        "labelFontSize": 9,
-                        "titleFontSize": 15,
-                        "labelLimit": 40,
+                        "labelFontSize": 11,
+                        "labelLimit": 63,
                         "labelOverlap": false,
                         "ticks": false,
                         "domain": false,
-                        "labelPadding": 5
+                        "labelFontWeight":"bold"
                     }
                 },
                 "y": {
@@ -55,7 +54,9 @@
                         "title": null,
                         "labelFontSize": 13,
                         "ticks": false,
-                        "domain": false
+                        "domain": false,
+                        "labelPadding": 10,
+                        "labelFontWeight": "bold"
                     }
                 },
                 "color": {

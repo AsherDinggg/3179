@@ -25,7 +25,7 @@
             "axis": {
                         "labelFontSize": 14,
                         "titleFontSize": 17,
-                        "grid": true
+                        "grid": false
                     }
         },
         "y": {

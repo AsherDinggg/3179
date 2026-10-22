@@ -7,9 +7,7 @@
         "url": "data/fourth_idiom.csv"
     },
     "mark": {
-                "type": "rect",
-                "strokeWidth": 2,
-                "color": "white"
+                "type": "rect"
             },
     "encoding": {
         "y": {
