@@ -31,7 +31,7 @@
         "y": {
             "field": "Waterfall Start",
             "type": "quantitative",
-            "title": "Average performances per event",
+            "title": "Average Participants per event",
             "scale": {
                 "domain": [0, 650]
             },
@@ -75,7 +75,7 @@
             {
                 "field": "Average Performances per Event",
                 "type": "quantitative",
-                "title": "Average performances per event",
+                "title": "Average Participants per event",
                 "format": ".1f"
             },
             {
