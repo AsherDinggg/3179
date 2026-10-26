@@ -205,7 +205,7 @@ async function loadSeventhIdiom() {
         await renderMap(filter.value)
 
     } catch (error) {
-        console.error("Error loading Idiom 4: ", error);
+        console.error("Error loading Idiom 7: ", error);
     }
 }
 loadSeventhIdiom();

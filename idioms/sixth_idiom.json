@@ -121,6 +121,124 @@
                     }
                 ]
             }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "State": "Victoria",
+                        "longitude": 145.5,
+                        "latitude": -37,
+                        "longitude2": 143.5,
+                        "latitude2": -39
+                    },
+                    {
+                        "State": "Tasmania",
+                        "longitude": 147.3,
+                        "latitude": -42,
+                        "longitude2": 143.5,
+                        "latitude2": -43
+                    },
+                    {
+                        "State": "Australian Capital Territory",
+                        "longitude": 149.13,
+                        "latitude": -35.28,
+                        "longitude2": 155,
+                        "latitude2": -34.5
+                    }
+                ]
+            },
+            "mark": {
+                "type": "rule",
+                "stroke": "#373836",
+                "strokeWidth": 1.3
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "longitude2": {
+                    "field": "longitude2"
+                },
+                "latitude2": {
+                    "field": "latitude2"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "State": "Western Australia",
+                        "longitude": 121,
+                        "latitude": -27.5
+                    },
+                    {
+                        "State": "Northern Territory",
+                        "longitude": 133.5,
+                        "latitude": -20.5
+                    },
+                    {
+                        "State": "Queensland",
+                        "longitude": 144.9,
+                        "latitude": -24
+                    },
+                    {
+                        "State": "South Australia",
+                        "longitude": 136,
+                        "latitude": -28.3
+                    },
+                    {
+                        "State": "New South Wales",
+                        "longitude": 147.5,
+                        "latitude": -29.9
+                    },
+                    {
+                        "State": "Victoria",
+                        "longitude": 143.3,
+                        "latitude": -39.4
+                    },
+                    {
+                        "State": "Tasmania",
+                        "longitude": 143.1,
+                        "latitude": -43.5
+                    },
+                    {
+                        "State": "Australian Capital Territory",
+                        "longitude": 160.8,
+                        "latitude": -34.5
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 11,
+                "fontWeight": "bold",
+                "color": "#17231d",
+                "align": "center",
+                "baseline": "middle",
+                "dx": 1,
+                "dy": 1
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "State",
+                    "type": "nominal"
+                }
+            }
         }
     ],
     "config": {

@@ -17,6 +17,10 @@
         {
             "calculate": "datum.Gender === 'Female Participation Rate (%)' ? 'Female' : 'Male'",
             "as": "Gender"
+        }, 
+        {
+            "calculate": "format(datum['Participation Rate (%)'], '.1f') + '%'",
+            "as": "Participation Label"
         }
     ],
     "layer": [
@@ -127,6 +131,40 @@
                         "format": ".1f"
                     }
                 ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "dy": 14,
+                "fontSize": 10,
+                "fontWeight": "bold",
+                "color": "#262524",
+                "align": "center",
+                "baseline": "top"
+            },
+            "encoding": {
+                "y": {
+                    "field": "Age Group",
+                    "type": "ordinal",
+                    "sort": [
+                        "65+",
+                        "55-64",
+                        "45-54",
+                        "35-44",
+                        "25-34",
+                        "18-24",
+                        "15-17"
+                    ]
+                },
+                "x": {
+                    "field": "Participation Rate (%)",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "Participation Label",
+                    "type": "nominal"
+                }
             }
         }
     ],
